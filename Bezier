@@ -1,0 +1,13 @@
+package bezier;
+import java.io.FileNotFoundException;
+
+public class Bezier {
+
+    public static void main(String[] args) throws FileNotFoundException {
+
+        Obliczenia.Bezier(Obliczenia.wczytaj("teapot.txt"),3,3,"pktTeapot.txt");
+        Obliczenia.Bezier(Obliczenia.wczytaj("teacup.txt"),3,3,"pktTeacup.txt");
+        Obliczenia.Bezier(Obliczenia.wczytaj("teaspoon.txt"),3,3,"pktTeaspoon.txt");
+        
+    }
+}
